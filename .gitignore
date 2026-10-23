@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+dist
+coverage
+.turbo
+*.tsbuildinfo
+next-env.d.ts
+.env
+.env.*
+!.env.example
+.DS_Store
+playwright-report
+test-results
+services/game-server/data

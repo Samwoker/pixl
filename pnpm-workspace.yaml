@@ -1,0 +1,9 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+  - 'services/*'
+
+# Prebuilt binaries ship with these; their install scripts aren't needed.
+allowBuilds:
+  esbuild: false
+  unrs-resolver: false
